@@ -1,0 +1,13 @@
+2023-10-31 10:18:59,026 - root - INFO: Testing import_data: SUCCESS
+2023-10-31 10:18:59,026 - root - INFO: Rows: 10127	Columns: 22
+2023-10-31 10:19:04,170 - root - INFO: Testing perform_eda: SUCCESS
+2023-10-31 10:19:04,170 - root - INFO: File churn_distribution.png was found
+2023-10-31 10:19:04,171 - root - INFO: File customer_age_distribution.png was found
+2023-10-31 10:19:04,171 - root - INFO: File marital_status_distribution.png was found
+2023-10-31 10:19:04,171 - root - INFO: File total_transaction_distribution.png was found
+2023-10-31 10:19:04,171 - root - INFO: File heatmap.png was found
+2023-10-31 10:19:04,270 - root - INFO: Testing encoder_helper(data_frame, category_lst=[]): SUCCESS
+2023-10-31 10:19:05,912 - root - INFO: Testing encoder_helper(data_frame, category_lst=cat_columns, response=None): SUCCESS
+2023-10-31 10:19:07,499 - root - INFO: Testing encoder_helper(data_frame, category_lst=cat_columns, response='Churn'): SUCCESS
+2023-10-31 10:19:09,162 - root - INFO: Testing perform_feature_engineering. `Churn` column is present: SUCCESS
+2023-10-31 10:19:09,162 - root - INFO: Testing perform_feature_engineering. DataFrame sizes are consistent: SUCCESS
